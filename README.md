@@ -1,14 +1,25 @@
-# CRUD Operations on Databases  
+# AI-Powered Natural Language Database Interface  
 
-This project demonstrates how to implement CRUD (Create, Read, Update, Delete) operations on a database using Python. It provides a simple yet effective way to interact with databases using SQL and an intuitive API.  
+This project is an **AI-driven application** that allows users to interact with **SQL and NoSQL databases** using **natural language**. By leveraging **LangChain, LangGraph, and the ReAct method**, the system translates English commands into database-specific queries, making database management accessible to non-technical users.  
+
+## 📌 Project Overview   
+- **Supports SQL & NoSQL Databases** – Works with multiple database types  
+- **Web Interface with Streamlit** – Easy-to-use UI for database interactions  
+- **AI Agent with Logical Reasoning** – Uses ReAct method for complex queries  
+- **Deployed on Hugging Face** – Accessible via a web interface  
 
 ## 🚀 Features  
-- Perform Create, Read, Update, and Delete operations seamlessly  
-- Uses SQL queries to interact with the database  
-- Well-structured code with clear documentation  
-- Can be extended to work with different database management systems  
+✅ Perform **CRUD operations** (Create, Read, Update, Delete) using English commands  
+✅ **Multi-database support** – Works with MySQL, PostgreSQL, MongoDB, and more  
+✅ **Step-by-step query execution** for handling complex requests  
+✅ **Secure credential input** via the Streamlit interface  
+✅ **Extensible architecture** for future database integrations  
 
-## 📌 Requirements  
-Ensure you have the necessary dependencies installed:  
-```bash
-pip install -r requirements.txt
+## 🔧 Technologies Used  
+- **LangChain & LangGraph** – AI-powered query generation  
+- **ReAct Method** – Logical reasoning for complex queries  
+- **Streamlit** – Web-based user interface  
+- **SQL & NoSQL Databases** – Works with various database types  
+- **Hugging Face** – Deployment for easy access  
+
+## 📂 Project Structure  
